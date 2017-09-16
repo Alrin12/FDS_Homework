@@ -1,0 +1,53 @@
+@charset "utf-8";
+@import "normalize.css";
+@import "reset.css";
+
+.navigation {
+    background: aliceblue;
+}
+
+.a11y-hidden {
+    background: blue;
+    position: absolute;
+    left: -9999em
+}
+
+.main-menu>li {
+    display: inline-block;
+}
+
+span {
+    background: orange;
+}
+
+.sub-menu {
+    background: yellow;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.sub-menu li {
+    display: inline-block;
+}
+
+.sub1 {
+    display: none;
+}
+
+.sub2 {
+    display: none;
+}
+
+.sub3 {
+    display: none;
+    position: absolute;
+}
+
+.main-menu li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu-active {
+    display: block !important;
+}
+
