@@ -1,0 +1,100 @@
+@charset "utf-8";
+@import "reset.css";
+.wrapper {
+  position: relative;
+}
+
+.text-box {
+  position: absolute;
+  left: 40px;
+  top: 100px;
+  z-index: -1;
+}
+
+.main-text {
+  position: relative;
+  background: url("img/sprite.png") no-repeat;
+  background-color: #999;
+  width: 380px;
+  height: 360px;
+  background-position: -17px;
+}
+
+.button {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 332px;
+}
+
+.btn-prev,
+.btn-next {
+  cursor: pointer;
+  display: inline-block;
+  width: 20px;
+  height: 0;
+  padding-top: 20px;
+  overflow: hidden;
+  background: url("img/sprite.png")
+}
+
+.btn-next {
+  background-position: 0 -17px;
+}
+
+.test1 {
+  position: absolute;
+  background: aqua;
+  width: 300px;
+  height: 300px;
+  top: 450px;
+  z-index: 1;
+}
+
+.test2 {
+  position: absolute;
+  background: yellow;
+  width: 300px;
+  height: 300px;
+  top: 400px;
+  z-index: -1
+}
+
+.test3 {
+  position: absolute;
+  background: crimson;
+  width: 300px;
+  height: 300px;
+  top: 425px;
+  z-index: 0
+}
+
+
+/* .btn-area {
+  background: yellow;
+}
+
+.btn-prev,
+.btn-next {
+  cursor: pointer;
+  display: inline-block;
+  width: 20px;
+  height: 0;
+  padding-top: 20px;
+  overflow: hidden;
+  background: pink url("images/backpage_forwardpage.png") no-repeat;
+}
+
+.btn-next {
+  background-position: -40px 0;
+} */
+
+
+/* <style type="text/css">
+.oir h1{background:url(image/lg.gif) no-repeat;width:585px;height:103px;position:relative;}
+.oir h1 a{display:block;width:inherit;height:inherit;}
+.oir h1 span{position:absolute;left:0;top:0;z-index:-1}
+</style>
+
+
+출처: http://dolly77.tistory.com/26 [interactive] */
